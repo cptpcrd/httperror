@@ -1,6 +1,10 @@
 #ifndef _ERRORTABLE_H
 #define _ERRORTABLE_H
 
+// Sources:
+// - https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+// - https://support.cloudflare.com/hc/en-us/articles/115003011431-Troubleshooting-Cloudflare-5XX-errors
+
 const char *error_names[] = {
     [100] = "Continue",
     [101] = "Switching Protocols",
